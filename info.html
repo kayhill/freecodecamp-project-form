@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Form">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Spartan&display=swap" rel="stylesheet">
+    <title>Product Contact Form</title>
+</head>
+<body>
+    <main id="main">
+        <div class="main">
+          <div class="form-title">
+            <h1 id="title">Let's build your product.</h1>
+          </div>
+          
+          <form id="survey-form" action="/tribute-page-test.js" method="POST">
+                <div class="form">
+                <div class="column1">
+                  <div class="timeframe">   
+                    <h3>Timeframe</h3>
+                    <input type="radio" id="1-month" name="timeframe" value="1-month">
+                    <label for="1-month">1 month</label><br>
+                    <input type="radio" id="2-3-months" name="timeframe" value="2-3-months">
+                    <label for="2-3-months">2 to 3 months</label><br>
+                    <input type="radio" id="4+months" name="timeframe" value="4+months">
+                    <label for="4+month">4+ months</label><br>
+                    <br>
+                  </div>
+                 
+                    <div class="project-type">
+                      <h3>Project Type</h3>
+                      <input type="checkbox" id="project1" name="project1" value="desktop">
+                      <label for="project1">Desktop</label><br>
+                      <input type="checkbox" id="project2" name="project2" value="web">
+                      <label for="project2">Web</label><br>
+                      <input type="checkbox" id="project3 name="project3" value="mobile">
+                      <label for="project3">Mobile</label><br>
+                    </div>
+                     </div>
+                <div class="column2">
+                  <div class="personal-details">      
+                    <h3>Personal Details</h3>
+                    <label id="name-label" for="name">Name</label><br>
+                    <input type="text" id="name" name="fullname"><br>
+                    <label idea="email-label" for="email">Email</label><br>
+                    <input type="email" id="email" name="email"></label><br>
+                    <label id="budget-label" for="budget">Budget</label><br>
+                    <input type="text" id="budget" name="budget" pattern="[0-9$]" maxlength="6" value="$"><br>
+                    <br>
+                    <input type="textarea" wrap="soft" id="tell-us-textarea" name="tell-us" placeholder="Tell us about your project."><br>
+                    <div class="submit-button">
+                    <button type="submit">Submit</button>
+                    </div>
+                  </div>
+                 </div> 
+             </div>
+            
+            </div>
+        </div>
+            </form>   
+  
+    </div>
+    </main>
+
+</body>
+</html>
